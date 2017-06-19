@@ -1,3 +1,4 @@
+/*引入新字体*/
 @font-face {
   font-family: 'wjs font';
 
@@ -21,4 +22,7 @@
 }
 .wjs_e900::before{
   content: "\e900";
+}
+.wjs_phone::before{
+  content: "\e908";
 }
