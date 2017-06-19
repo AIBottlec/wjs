@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>测试页</title>
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .for_navbar {
+            background-color: #f8f8f8;
+            border-color: #e7e7e7;
+        }
+        .for_navbar .navbar-brand {
+            color: #777;
+            height:80px;
+            line-height: 50px;
+        }
+        .for_navbar .navbar-brand:hover,
+        .for_navbar .navbar-brand:focus {
+            color: #5e5e5e;
+            background-color: transparent;
+        }
+        .for_navbar .navbar-text {
+            color: #777;
+        }
+        .for_navbar .navbar-nav > li > a {
+            color: #777;
+            /*改高度*/
+            height:80px;
+            line-height:50px;
+        }
+        .for_navbar .navbar-nav > li > a:hover,
+        .for_navbar .navbar-nav > li > a:focus {
+            color: #333;
+            background-color: transparent;
+            border-bottom: 3px solid red;
+        }
+        .for_navbar .navbar-nav > .active > a,
+        .for_navbar .navbar-nav > .active > a:hover,
+        .for_navbar .navbar-nav > .active > a:focus {
+            color: #555;
+            /*background-color: #e7e7e7;*/
+            /*border-bottom: 5px solid red;*/
+        }
+        .for_navbar .navbar-nav > .disabled > a,
+        .for_navbar .navbar-nav > .disabled > a:hover,
+        .for_navbar .navbar-nav > .disabled > a:focus {
+            color: #ccc;
+            background-color: transparent;
+        }
+        .for_navbar .navbar-toggle {
+            border-color: #ddd;
+        }
+        .for_navbar .navbar-toggle:hover,
+        .for_navbar .navbar-toggle:focus {
+            background-color: #ddd;
+        }
+        .for_navbar .navbar-toggle .icon-bar {
+            background-color: #888;
+        }
+        .for_navbar .navbar-collapse,
+        .for_navbar .navbar-form {
+            border-color: #e7e7e7;
+        }
+        .for_navbar .navbar-nav > .open > a,
+        .for_navbar .navbar-nav > .open > a:hover,
+        .for_navbar .navbar-nav > .open > a:focus {
+            color: #555;
+            background-color: #e7e7e7;
+        }
+        @media (max-width: 767px) {
+            .for_navbar .navbar-nav .open .dropdown-menu > li > a {
+                color: #777;
+            }
+            .for_navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+            .for_navbar .navbar-nav .open .dropdown-menu > li > a:focus {
+                color: #333;
+                background-color: transparent;
+            }
+            .for_navbar .navbar-nav .open .dropdown-menu > .active > a,
+            .for_navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+            .for_navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+                color: #555;
+                background-color: #e7e7e7;
+            }
+            .for_navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+            .for_navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+            .for_navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+                color: #ccc;
+                background-color: transparent;
+            }
+        }
+        .for_navbar .navbar-link {
+            color: #777;
+        }
+        .for_navbar .navbar-link:hover {
+            color: #333;
+        }
+        .for_navbar .btn-link {
+            color: #777;
+        }
+        .for_navbar .btn-link:hover,
+        .for_navbar .btn-link:focus {
+            color: #333;
+        }
+        .for_navbar .btn-link[disabled]:hover,
+        fieldset[disabled] .for_navbar .btn-link:hover,
+        .for_navbar .btn-link[disabled]:focus,
+        fieldset[disabled] .for_navbar .btn-link:focus {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+<div class="nav">
+    <nav class="navbar for_navbar">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">我是logo</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+                    <li><a href="#">个人中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+
+</div>
+</body>
+</html>
