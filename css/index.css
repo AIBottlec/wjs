@@ -137,6 +137,9 @@
 .nav fieldset[disabled] .wjs_navbar-navbar .btn-link:focus {
   color: #ccc;
 }
+.banner {
+  /*移动端轮播图适配*/
+}
 .banner .banner_a {
   display: block;
   height: 410px;
@@ -156,4 +159,12 @@
 }
 .banner .banner_a.image_d {
   background-image: url(../images/slide_04_2000x410.jpg);
+}
+.banner .mobile_a {
+  display: block;
+  width: 100%;
+}
+.banner .mobile_a > img {
+  display: block;
+  width: 100%;
 }
