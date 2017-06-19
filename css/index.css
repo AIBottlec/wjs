@@ -24,113 +24,136 @@
 .header .row > div:first-child:hover img {
   display: block;
 }
-.wjs_navbar-navbar {
+.nav .navbar {
+  margin-bottom: 0;
+}
+.nav .wjs_navbar-navbar {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
 }
-.wjs_navbar-navbar .navbar-brand {
+.nav .wjs_navbar-navbar .navbar-brand {
   color: #777;
   height: 80px;
   line-height: 50px;
 }
-.wjs_navbar-navbar .navbar-brand span {
+.nav .wjs_navbar-navbar .navbar-brand span {
   font-size: 50px;
 }
-.wjs_navbar-navbar .navbar-brand span:first-child {
+.nav .wjs_navbar-navbar .navbar-brand span:first-child {
   color: red;
 }
-.wjs_navbar-navbar .navbar-brand span:last-child {
+.nav .wjs_navbar-navbar .navbar-brand span:last-child {
   color: black;
 }
-.wjs_navbar-navbar .navbar-brand:hover,
-.wjs_navbar-navbar .navbar-brand:focus {
+.nav .wjs_navbar-navbar .navbar-brand:hover,
+.nav .wjs_navbar-navbar .navbar-brand:focus {
   color: #5e5e5e;
   background-color: transparent;
 }
-.wjs_navbar-navbar .navbar-text {
+.nav .wjs_navbar-navbar .navbar-text {
   color: #777;
 }
-.wjs_navbar-navbar .navbar-nav > li > a {
+.nav .wjs_navbar-navbar .navbar-nav > li > a {
   color: #777;
   height: 80px;
   line-height: 50px;
 }
-.wjs_navbar-navbar .navbar-nav > li > a:hover,
-.wjs_navbar-navbar .navbar-nav > li > a:focus {
+.nav .wjs_navbar-navbar .navbar-nav > li > a:hover,
+.nav .wjs_navbar-navbar .navbar-nav > li > a:focus {
   color: #333;
   background-color: transparent;
   border-bottom: 3px solid red;
 }
-.wjs_navbar-navbar .navbar-nav > .active > a,
-.wjs_navbar-navbar .navbar-nav > .active > a:hover,
-.wjs_navbar-navbar .navbar-nav > .active > a:focus {
+.nav .wjs_navbar-navbar .navbar-nav > .active > a,
+.nav .wjs_navbar-navbar .navbar-nav > .active > a:hover,
+.nav .wjs_navbar-navbar .navbar-nav > .active > a:focus {
   color: #555;
 }
-.wjs_navbar-navbar .navbar-nav > .disabled > a,
-.wjs_navbar-navbar .navbar-nav > .disabled > a:hover,
-.wjs_navbar-navbar .navbar-nav > .disabled > a:focus {
+.nav .wjs_navbar-navbar .navbar-nav > .disabled > a,
+.nav .wjs_navbar-navbar .navbar-nav > .disabled > a:hover,
+.nav .wjs_navbar-navbar .navbar-nav > .disabled > a:focus {
   color: #ccc;
   background-color: transparent;
 }
-.wjs_navbar-navbar .navbar-toggle {
+.nav .wjs_navbar-navbar .navbar-toggle {
   border-color: #ddd;
   margin-top: 23px;
 }
-.wjs_navbar-navbar .navbar-toggle:hover,
-.wjs_navbar-navbar .navbar-toggle:focus {
+.nav .wjs_navbar-navbar .navbar-toggle:hover,
+.nav .wjs_navbar-navbar .navbar-toggle:focus {
   background-color: #ddd;
 }
-.wjs_navbar-navbar .navbar-toggle .icon-bar {
+.nav .wjs_navbar-navbar .navbar-toggle .icon-bar {
   background-color: #888;
 }
-.wjs_navbar-navbar .navbar-collapse,
-.wjs_navbar-navbar .navbar-form {
+.nav .wjs_navbar-navbar .navbar-collapse,
+.nav .wjs_navbar-navbar .navbar-form {
   border-color: #e7e7e7;
 }
-.wjs_navbar-navbar .navbar-nav > .open > a,
-.wjs_navbar-navbar .navbar-nav > .open > a:hover,
-.wjs_navbar-navbar .navbar-nav > .open > a:focus {
+.nav .wjs_navbar-navbar .navbar-nav > .open > a,
+.nav .wjs_navbar-navbar .navbar-nav > .open > a:hover,
+.nav .wjs_navbar-navbar .navbar-nav > .open > a:focus {
   color: #555;
   background-color: #e7e7e7;
 }
 @media (max-width: 767px) {
-  .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > li > a {
+  .nav .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }
-  .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > li > a:hover,
-  .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > li > a:focus {
+  .nav .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+  .nav .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #333;
     background-color: transparent;
   }
-  .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .active > a,
-  .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  .nav .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .active > a,
+  .nav .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .nav .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555;
     background-color: #e7e7e7;
   }
-  .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .disabled > a,
-  .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-  .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  .nav .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+  .nav .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .nav .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #ccc;
     background-color: transparent;
   }
 }
-.wjs_navbar-navbar .navbar-link {
+.nav .wjs_navbar-navbar .navbar-link {
   color: #777;
 }
-.wjs_navbar-navbar .navbar-link:hover {
+.nav .wjs_navbar-navbar .navbar-link:hover {
   color: #333;
 }
-.wjs_navbar-navbar .btn-link {
+.nav .wjs_navbar-navbar .btn-link {
   color: #777;
 }
-.wjs_navbar-navbar .btn-link:hover,
-.wjs_navbar-navbar .btn-link:focus {
+.nav .wjs_navbar-navbar .btn-link:hover,
+.nav .wjs_navbar-navbar .btn-link:focus {
   color: #333;
 }
-.wjs_navbar-navbar .btn-link[disabled]:hover,
-fieldset[disabled] .wjs_navbar-navbar .btn-link:hover,
-.wjs_navbar-navbar .btn-link[disabled]:focus,
-fieldset[disabled] .wjs_navbar-navbar .btn-link:focus {
+.nav .wjs_navbar-navbar .btn-link[disabled]:hover,
+.nav fieldset[disabled] .wjs_navbar-navbar .btn-link:hover,
+.nav .wjs_navbar-navbar .btn-link[disabled]:focus,
+.nav fieldset[disabled] .wjs_navbar-navbar .btn-link:focus {
   color: #ccc;
+}
+.banner .banner_a {
+  display: block;
+  height: 410px;
+  background-size: cover;
+  /*为了让中间的内容保留，多余的部分被自动切割*/
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner .banner_a.image_a {
+  background-image: url(../images/slide_01_2000x410.jpg);
+}
+.banner .banner_a.image_b {
+  background-image: url(../images/slide_02_2000x410.jpg);
+}
+.banner .banner_a.image_c {
+  background-image: url(../images/slide_03_2000x410.jpg);
+}
+.banner .banner_a.image_d {
+  background-image: url(../images/slide_04_2000x410.jpg);
 }
