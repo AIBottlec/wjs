@@ -26,3 +26,9 @@
 .wjs_phone::before{
   content: "\e908";
 }
+.wjs_logo::before{
+  content: "\e920";
+}
+.wjs_word::before{
+  content: "\e93e";
+}

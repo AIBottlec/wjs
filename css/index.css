@@ -30,6 +30,17 @@
 }
 .wjs_navbar-navbar .navbar-brand {
   color: #777;
+  height: 80px;
+  line-height: 50px;
+}
+.wjs_navbar-navbar .navbar-brand span {
+  font-size: 50px;
+}
+.wjs_navbar-navbar .navbar-brand span:first-child {
+  color: red;
+}
+.wjs_navbar-navbar .navbar-brand span:last-child {
+  color: black;
 }
 .wjs_navbar-navbar .navbar-brand:hover,
 .wjs_navbar-navbar .navbar-brand:focus {
@@ -41,17 +52,19 @@
 }
 .wjs_navbar-navbar .navbar-nav > li > a {
   color: #777;
+  height: 80px;
+  line-height: 50px;
 }
 .wjs_navbar-navbar .navbar-nav > li > a:hover,
 .wjs_navbar-navbar .navbar-nav > li > a:focus {
   color: #333;
   background-color: transparent;
+  border-bottom: 3px solid red;
 }
 .wjs_navbar-navbar .navbar-nav > .active > a,
 .wjs_navbar-navbar .navbar-nav > .active > a:hover,
 .wjs_navbar-navbar .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #e7e7e7;
 }
 .wjs_navbar-navbar .navbar-nav > .disabled > a,
 .wjs_navbar-navbar .navbar-nav > .disabled > a:hover,
@@ -61,6 +74,7 @@
 }
 .wjs_navbar-navbar .navbar-toggle {
   border-color: #ddd;
+  margin-top: 23px;
 }
 .wjs_navbar-navbar .navbar-toggle:hover,
 .wjs_navbar-navbar .navbar-toggle:focus {
