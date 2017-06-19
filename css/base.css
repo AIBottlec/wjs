@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'wjs font';
+
+  src: url('../fonts/MiFie-Web-Font.eot');
+  src: url('../fonts/MiFie-Web-Font.eot?#iefix') format('embedded-opentype'), 
+      url('../fonts/MiFie-Web-Font.woff') format('woff'),
+      url('../fonts/MiFie-Web-Font.ttf') format('truetype'),
+      url('../fonts/MiFie-Web-Font.svg#MiFie-Web-Font') format('svg');
+}
+.wjs_font {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'wjs font';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wjs_e900::before{
+  content: "\e900";
+}
