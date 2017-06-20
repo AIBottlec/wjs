@@ -206,3 +206,72 @@
 .book .pull-right a:hover {
   color: red;
 }
+.recommend .wjs_nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+.recommend .wjs_nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.recommend .wjs_nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+.recommend .wjs_nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+.recommend .wjs_nav-tabs > li.active > a,
+.recommend .wjs_nav-tabs > li.active > a:hover,
+.recommend .wjs_nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.recommend .wjs_nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.recommend .wjs_nav-tabs.nav-justified > li {
+  float: none;
+}
+.recommend .wjs_nav-tabs.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.recommend .wjs_nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .recommend .wjs_nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .recommend .wjs_nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.recommend .wjs_nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.recommend .wjs_nav-tabs.nav-justified > .active > a,
+.recommend .wjs_nav-tabs.nav-justified > .active > a:hover,
+.recommend .wjs_nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .recommend .wjs_nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .recommend .wjs_nav-tabs.nav-justified > .active > a,
+  .recommend .wjs_nav-tabs.nav-justified > .active > a:hover,
+  .recommend .wjs_nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
