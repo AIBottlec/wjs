@@ -186,64 +186,29 @@
 
 //信息列表
 .info{
-  media {
-    margin-top: 15px;
+  padding-top: 50px;
+  .container{
+    max-width:910px;
+    .row{
+      &>div{
+        margin-bottom: 20px;
+        padding-left: 30px;
+        //text-align: center;
+      }
+    }
   }
-
-  .media:first-child {
-    margin-top: 0;
-  }
-
-  .media,
-  .media-body {
-    overflow: hidden;
-    zoom: 1;
-  }
-
-  .media-body {
-    width: 10000px;
-  }
-
-  .media-object {
-    display: block;
-  }
-
-  .media-object.img-thumbnail {
-    max-width: none;
-  }
-
-  .media-right,
-  .media > .pull-right {
-    padding-left: 10px;
-  }
-
-  .media-left,
-  .media > .pull-left {
-    padding-right: 10px;
-  }
-
-  .media-left,
-  .media-right,
-  .media-body {
-    display: table-cell;
-    vertical-align: top;
-  }
-
-  .media-middle {
-    vertical-align: middle;
-  }
-
-  .media-bottom {
-    vertical-align: bottom;
-  }
-
-  .media-heading {
-    margin-top: 0;
-    margin-bottom: 5px;
-  }
-
-  .media-list {
-    padding-left: 0;
-    list-style: none;
+  .wjs_media {
+    a{
+      display: block;
+      color: gray;
+      &:hover{
+        color:red;
+      }
+      .media-left{
+        .wjs_font{
+          font-size: 40px;
+        }
+      }
+    }
   }
 }

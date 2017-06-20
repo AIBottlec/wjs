@@ -168,51 +168,23 @@
   display: block;
   width: 100%;
 }
-.info media {
-  margin-top: 15px;
+.info {
+  padding-top: 50px;
 }
-.info .media:first-child {
-  margin-top: 0;
+.info .container {
+  max-width: 910px;
 }
-.info .media,
-.info .media-body {
-  overflow: hidden;
-  zoom: 1;
+.info .container .row > div {
+  margin-bottom: 20px;
+  padding-left: 30px;
 }
-.info .media-body {
-  width: 10000px;
-}
-.info .media-object {
+.info .wjs_media a {
   display: block;
+  color: gray;
 }
-.info .media-object.img-thumbnail {
-  max-width: none;
+.info .wjs_media a:hover {
+  color: red;
 }
-.info .media-right,
-.info .media > .pull-right {
-  padding-left: 10px;
-}
-.info .media-left,
-.info .media > .pull-left {
-  padding-right: 10px;
-}
-.info .media-left,
-.info .media-right,
-.info .media-body {
-  display: table-cell;
-  vertical-align: top;
-}
-.info .media-middle {
-  vertical-align: middle;
-}
-.info .media-bottom {
-  vertical-align: bottom;
-}
-.info .media-heading {
-  margin-top: 0;
-  margin-bottom: 5px;
-}
-.info .media-list {
-  padding-left: 0;
-  list-style: none;
+.info .wjs_media a .media-left .wjs_font {
+  font-size: 40px;
 }
