@@ -360,3 +360,20 @@
 .recommend .price_ticket.white .ticket_right {
   border-left: 1px dashed gray;
 }
+.news .row h3 {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid gray;
+  position: relative;
+}
+.news .row h3::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  background: white;
+  bottom: -4px;
+  right: -4px;
+}
