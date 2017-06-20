@@ -1,16 +1,16 @@
-.header{
-  .row{
-    &>div{
-      height:40px;
+.header {
+  .row {
+    & > div {
+      height: 40px;
       line-height: 40px;
       border: 1px solid gray;
       text-align: center;
-      &>a{
+      & > a {
         font-size: 13px;
         color: gray;
         text-decoration: none;
       }
-      &:nth-child(n+3) a{
+      &:nth-child(n+3) a {
         margin-left: 10px;
       }
       &:first-child {
@@ -30,23 +30,26 @@
     }
   }
 }
+
 //bootstrap中导航条样式的拷贝和调试
-.nav{
-  .navbar{margin-bottom: 0;}
+.nav {
+  .navbar {
+    margin-bottom: 0;
+  }
   .wjs_navbar-navbar {
     background-color: #f8f8f8;
     border-color: #e7e7e7;
   }
   .wjs_navbar-navbar .navbar-brand {
     color: #777;
-    height:80px;
-    line-height:50px;
-    span{
+    height: 80px;
+    line-height: 50px;
+    span {
       font-size: 50px;
-      &:first-child{
+      &:first-child {
         color: red;
       }
-      &:last-child{
+      &:last-child {
         color: black;
       }
     }
@@ -61,8 +64,8 @@
   }
   .wjs_navbar-navbar .navbar-nav > li > a {
     color: #777;
-    height:80px;
-    line-height:50px;
+    height: 80px;
+    line-height: 50px;
   }
   .wjs_navbar-navbar .navbar-nav > li > a:hover,
   .wjs_navbar-navbar .navbar-nav > li > a:focus {
@@ -107,17 +110,20 @@
     .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > li > a {
       color: #777;
     }
+
     .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > li > a:hover,
     .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > li > a:focus {
       color: #333;
       background-color: transparent;
     }
+
     .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .active > a,
     .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
     .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #555;
       background-color: #e7e7e7;
     }
+
     .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .disabled > a,
     .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
     .wjs_navbar-navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -145,34 +151,99 @@
     color: #ccc;
   }
 }
+
 //轮播图
-.banner{
-  .banner_a{
+.banner {
+  .banner_a {
     display: block;
-    height:410px;
-    background-size: cover;/*为了让中间的内容保留，多余的部分被自动切割*/
+    height: 410px;
+    background-size: cover; /*为了让中间的内容保留，多余的部分被自动切割*/
     background-position: center;
     background-repeat: no-repeat;
-    &.image_a{
+    &.image_a {
       background-image: url(../images/slide_01_2000x410.jpg);
     }
-    &.image_b{
+    &.image_b {
       background-image: url(../images/slide_02_2000x410.jpg);
     }
-    &.image_c{
+    &.image_c {
       background-image: url(../images/slide_03_2000x410.jpg);
     }
-    &.image_d{
+    &.image_d {
       background-image: url(../images/slide_04_2000x410.jpg);
     }
   }
   /*移动端轮播图适配*/
-  .mobile_a{
+  .mobile_a {
     display: block;
     width: 100%;
-    &>img{
+    & > img {
       display: block;
-      width:100%;
+      width: 100%;
     }
+  }
+}
+
+//信息列表
+.info{
+  media {
+    margin-top: 15px;
+  }
+
+  .media:first-child {
+    margin-top: 0;
+  }
+
+  .media,
+  .media-body {
+    overflow: hidden;
+    zoom: 1;
+  }
+
+  .media-body {
+    width: 10000px;
+  }
+
+  .media-object {
+    display: block;
+  }
+
+  .media-object.img-thumbnail {
+    max-width: none;
+  }
+
+  .media-right,
+  .media > .pull-right {
+    padding-left: 10px;
+  }
+
+  .media-left,
+  .media > .pull-left {
+    padding-right: 10px;
+  }
+
+  .media-left,
+  .media-right,
+  .media-body {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .media-middle {
+    vertical-align: middle;
+  }
+
+  .media-bottom {
+    vertical-align: bottom;
+  }
+
+  .media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .media-list {
+    padding-left: 0;
+    list-style: none;
   }
 }
