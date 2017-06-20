@@ -175,7 +175,7 @@
   max-width: 910px;
 }
 .info .container .row > div {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   padding-left: 30px;
 }
 .info .wjs_media a {
@@ -187,4 +187,22 @@
 }
 .info .wjs_media a .media-left .wjs_font {
   font-size: 40px;
+}
+.book {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.book .container-fluid {
+  /**/
+  padding: 20px 100px;
+}
+.book .pull-left a {
+  color: red;
+  border-bottom: 1px dashed red;
+}
+.book .pull-right a {
+  color: gray;
+}
+.book .pull-right a:hover {
+  color: red;
 }
