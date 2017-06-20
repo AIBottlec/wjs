@@ -53,7 +53,9 @@
 .wjs_E907::before {
     content: "\e907";
 }
-
+.wjs_E915::before {
+    content: "\e915";
+}
 .wjs_E901::before {
     content: "\e901";
 }
