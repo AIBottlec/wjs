@@ -206,30 +206,29 @@
 .book .pull-right a:hover {
   color: red;
 }
+.recommend {
+  border-bottom: 1px solid #666;
+}
 .recommend .wjs_nav-tabs {
   border-bottom: 1px solid #ddd;
 }
 .recommend .wjs_nav-tabs > li {
   float: left;
-  margin-bottom: -1px;
+  margin-bottom: -2px;
 }
 .recommend .wjs_nav-tabs > li > a {
   margin-right: 2px;
   line-height: 1.42857143;
-  border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
-}
-.recommend .wjs_nav-tabs > li > a:hover {
-  border-color: #eee #eee #ddd;
+  color: gray;
 }
 .recommend .wjs_nav-tabs > li.active > a,
 .recommend .wjs_nav-tabs > li.active > a:hover,
 .recommend .wjs_nav-tabs > li.active > a:focus {
   color: #555;
   cursor: default;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-bottom-color: transparent;
+  border-bottom: 4px solid red;
+  background: skyblue;
 }
 .recommend .wjs_nav-tabs.nav-justified {
   width: 100%;
