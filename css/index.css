@@ -468,3 +468,17 @@
   left: 34px;
   z-index: -1;
 }
+.news {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #666;
+}
+.news .tab-content ul {
+  list-style: none;
+  padding-top: 20px;
+}
+.news .tab-content ul li {
+  padding: 12px 0;
+}
+.news .tab-content ul li a {
+  color: gray;
+}
