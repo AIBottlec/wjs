@@ -482,3 +482,20 @@
 .news .tab-content ul li a {
   color: gray;
 }
+.footer {
+  text-align: center;
+  background-color: #eee;
+  padding: 20px 0;
+}
+.footer h3 {
+  margin-top: 0;
+}
+.footer ul {
+  list-style: none;
+  display: inline-block;
+}
+.footer ul li {
+  float: left;
+  font-size: 80px;
+  margin: 0 20px;
+}
