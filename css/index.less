@@ -241,6 +241,7 @@
 
 //特别推介模块
 .recommend{
+  padding-bottom: 15px;
   border-bottom: 1px solid #666;
   .wjs_nav-tabs {
     border-bottom: 1px solid #ddd;
@@ -343,13 +344,15 @@
       font-size: 40px;
       position: absolute;
     }
+    margin-top: 12px;
+    box-shadow: 2px 2px 5px gray;
 
     .ticket_right{
       min-height: 150px;
       float: right;
       padding:0 30px;
       padding-top: 20px;
-      background-color: orange;
+      //background-color: orange;
       border-left: 1px dashed #fff;
       position: relative;
       p{
@@ -395,6 +398,25 @@
         font-size: 12px;
         font-weight: 700;
       }
+    }
+  }
+
+  .price_ticket.white{
+    &::before{
+      color: red;
+      font-size: 40px;
+      position: absolute;
+    }
+    background-color: white;
+    color: gray;
+    h3{
+      color: gray;
+    }
+    p{
+      color: gray;
+    }
+    .ticket_right{
+      border-left: 1px dashed gray;
     }
   }
 }

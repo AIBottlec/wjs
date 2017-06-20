@@ -207,6 +207,7 @@
   color: red;
 }
 .recommend {
+  padding-bottom: 15px;
   border-bottom: 1px solid #666;
 }
 .recommend .wjs_nav-tabs {
@@ -277,6 +278,8 @@
 .recommend .price_ticket {
   display: block;
   background-color: red;
+  margin-top: 12px;
+  box-shadow: 2px 2px 5px gray;
 }
 .recommend .price_ticket:hover {
   text-decoration: none;
@@ -291,7 +294,6 @@
   float: right;
   padding: 0 30px;
   padding-top: 20px;
-  background-color: orange;
   border-left: 1px dashed #fff;
   position: relative;
   /*使用伪元素的方式添加小圆圈*/
@@ -339,4 +341,22 @@
 .recommend .price_ticket .ticket_left p {
   font-size: 12px;
   font-weight: 700;
+}
+.recommend .price_ticket.white {
+  background-color: white;
+  color: gray;
+}
+.recommend .price_ticket.white::before {
+  color: red;
+  font-size: 40px;
+  position: absolute;
+}
+.recommend .price_ticket.white h3 {
+  color: gray;
+}
+.recommend .price_ticket.white p {
+  color: gray;
+}
+.recommend .price_ticket.white .ticket_right {
+  border-left: 1px dashed gray;
 }
